@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="banner">
+            <h1>Welcome to Your Home Service</h1>
+            <p>Professional services at your doorstep</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#booking">Booking</a></li>
+                <li><a href="#FAQ">FAQ</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>A wide range of home services to meet your needs, from maintenance to renovation.</p>
+        <div class="service-item">
+            <h3>Cleaning Services</h3>
+            <p>Keep your home spotless with our professional cleaning services. Starting at $50.</p>
+        </div>
+        <div class="service-item">
+            <h3>Cooking Services</h3>
+            <p>Create culinary masterpieces without the hassle with our professional cooking services. Starting at $50.</p>
+        </div>
+        <div class="service-item">
+            <h3>Maintenance Services</h3>
+            <p>Keep your property in top condition with our professional maintenance services. Starting at $50.</p>
+        </div>
+        <!-- Add more services as needed -->
+    </section>
+
+    <!-- Further sections like About Us and Contact go here -->
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At Home Service, we're more than just a service provider. Founded in 2024 by Tanish Chopra, our mission has been to provide top-notch home maintenance and improvement services to our community. We pride ourselves on our commitment to quality, reliability, and customer satisfaction. With a team of experienced and passionate professionals, we aim to bring convenience and excellence to every household. Join us on our journey to make home care and improvement hassle-free and accessible to everyone.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to book a service? Fill out the form below or reach out directly.</p>
+        <div class="contact-details">
+            <p><strong>Phone:</strong> +123 456 7890</p>
+            <p><strong>Email:</strong> contact@homeservice.com</p>
+        </div>
+    </section>
+
+    <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <h3>How do I book a service?</h3>
+            <p>You can book a service through our website by filling out the booking form or by calling us directly at +123 456 7890.</p>
+        </div>
+        <div class="faq-item">
+            <h3>What are your prices?</h3>
+            <p>Prices vary depending on the service and scope of work. Please refer to our Services section or contact us for a quote.</p>
+        </div>
+        <!-- Add more FAQ items as needed -->
+    </section>
+    <section id="blog">
+    <h2>Latest From Our Blog</h2>
+    <div class="blog-item">
+        <img src="path/to/image1.jpg" alt="Blog Image 1" style="width:100%;height:auto;">
+        <h3>Efficient Home Cleaning Schedule</h3>
+        <p>Posted on Nov 24</p>
+        <p>Discover the top strategies for keeping your home sparkling clean with minimal effort. Learn from our experts...</p>
+        <a href="https://www.amenify.com/blog/efficient-cleaning-schedule-for-home">Read More</a>
+    </div>
+    <div class="blog-item">
+        <img src="path/to/image2.jpg" alt="Blog Image 2" style="width:100%;height:auto;">
+        <h3>Maximizing Your Home Space: Innovative Solutions</h3>
+        <p>Posted on Aug 28</p>
+        <p>Explore creative ways to make the most out of your living space, regardless of its size. Get inspired by our latest ideas...</p>
+        <a href="https://www.redfin.com/blog/creative-ways-to-maximize-space-small-house/">Read More</a>
+    </div>
+    <!-- More blog posts -->
+</section>
+<section id="booking">
+    <h2>Book a Service</h2>
+    <form id="booking-form" action="submit-booking.php" method="POST">
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+        <select id="service" name="service" required>
+            <option value="">Select a Service</option>
+            <option value="cleaning">Cleaning</option>
+            <option value="plumbing">Plumbing</option>
+            <option value="electrical">Electrical</option>
+            <!-- Add more services as needed -->
+        </select>
+        <input type="date" id="date" name="date" required>
+        <textarea id="message" name="message" placeholder="Additional Details (optional)"></textarea>
+        <button type="submit">Submit Booking</button>
+    </form>
+</section>
+
+    <footer>
+        <p>© 2024 Home Service. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
