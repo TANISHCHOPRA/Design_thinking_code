@@ -1,0 +1,238 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header and Navigation Styling */
+header {
+    background-color: #007BFF;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+#banner {
+    padding: 40px 20px;
+}
+
+#banner h1, #banner p {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Services Section Styling */
+#services h2, #services p, .service-item h3, .service-item p {
+    text-align: center;
+}
+
+#services {
+    padding: 50px 10px;
+    background-color: #f9f9f9;
+}
+
+.service-item {
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    border-radius: 8px;
+    display: inline-block;
+    width: calc(33% - 40px);
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+
+.service-item h3 {
+    color: #007bff;
+    font-size: 1.5em;
+}
+
+.service-item p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Responsive adjustments for service items */
+@media (max-width: 1000px) {
+    .service-item {
+        width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 600px) {
+    .service-item {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Additional responsive adjustments for header/nav */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        text-align: center;
+    }
+}
+#about {
+    background-color: #fff;
+    padding: 50px 10px;
+    text-align: center;
+}
+
+#about .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+#about h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+#about p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Responsive Design for About Us Section */
+@media (max-width: 768px) {
+    #about .container {
+        padding: 20px;
+    }
+}
+#contact {
+    background-color: #fff;
+    padding: 50px 10px;
+    text-align: center;
+}
+
+.contact-details p {
+    margin: 10px 0;
+}
+
+#faq {
+    background-color: #f9f9f9;
+    padding: 50px 10px;
+    text-align: center;
+}
+
+.faq-item h3 {
+    color: #007BFF;
+}
+
+.faq-item p {
+    text-align: left;
+    max-width: 800px;
+    margin: auto;
+}
+#blog {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+}
+
+.blog-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.blog-item h3 {
+    color: #007bff;
+    margin: 10px 0 5px;
+}
+
+.blog-item p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.blog-item a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.blog-item a:hover {
+    text-decoration: underline;
+}
+#booking {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#booking-form {
+    max-width: 600px;
+    margin: auto;
+}
+
+#booking-form input, #booking-form select, #booking-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Ensures padding doesn't affect overall width */
+}
+
+#booking-form button {
+    width: auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#booking-form button:hover {
+    background-color: #0056b3;
+}
